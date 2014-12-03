@@ -1,0 +1,11 @@
+applications:
+- services:
+  - NeverClearDBMySQLDatabase-za
+  disk_quota: 1024M
+  host: never-node-mysql
+  name: never-node-mysql
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 128M
